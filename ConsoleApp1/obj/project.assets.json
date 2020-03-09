@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\kovda\\.nuget\\packages\\": {}
+    "C:\\Users\\runi5\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kovda\\RiderProjects\\UrMat1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\runi5\\RiderProjects\\UrMat1\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\kovda\\RiderProjects\\UrMat1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "packagesPath": "C:\\Users\\kovda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kovda\\RiderProjects\\UrMat1\\ConsoleApp1\\obj\\",
+      "projectPath": "C:\\Users\\runi5\\RiderProjects\\UrMat1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\runi5\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\runi5\\RiderProjects\\UrMat1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kovda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\runi5\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\kovda\\.dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
