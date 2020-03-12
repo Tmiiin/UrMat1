@@ -235,13 +235,13 @@ namespace ConsoleApp1
                     b[k] = function(net.nodes[k]);
                 }
             }
-            PrintA();
+           // PrintA();
             Console.WriteLine();
             AddFirst();
             PrintA();
             Console.WriteLine();
-            AddSecond();
-            PrintA();
+           // AddSecond();
+           //PrintA();
             Console.WriteLine();
 
         }

@@ -32,27 +32,28 @@ namespace ConsoleApp1
             this.n = kx * ky;
             double x = xmin, y = ymin;
             int field = 0;
-            for (int i = 0; i < kx; i++)
+            for (int i = 0; i < ky; i++)
             {
-                for (int j = 0; j < ky; j++)
+                for (int j = 0; j < kx; j++)
                 {
                     nodes.Add(new List<double> {x, y, 1});
                     if (i == 0 || i == ky - 1 || j == 0 || j == kx - 1) //проверка находится ли нод на границе
                     {
-                        if (i==ky-1)
-                        {
-                            secondCondi.Add(new List<int>
-                            {
-                                j + i * kx,
-                                1,
-                                (int)Direction.Top
-                            });
-                        }
-                        else
-                        {
-                            firstCondi.Add(j+i*kx);
-                        }
+                        // if (i==ky-1)
+                        // {
+                        //     secondCondi.Add(new List<int>
+                        //     {
+                        //         j + i * kx,
+                        //         1,
+                        //         (int)Direction.Top
+                        //     });
+                        // }
+                        // else
+                        // {
+                        //     firstCondi.Add(j+i*kx);
+                        // }
                         nodes.Last().Add(0);
+                        firstCondi.Add(j+i*kx);
                     }
                     else
                     {
@@ -101,18 +102,22 @@ namespace ConsoleApp1
                         x += hx2;
                     }
 
-                    if (i == 0 || i==ky-1 ||j==0||j==nx1&&i<=ny1||i==ny1&&j>nx1||i==kx-1)
+                    if (i == 0 || i==ky-1 ||j==0||j==nx1&&i<=ny1||i==ny1&&j>nx1||j==kx-1)
                     {
-                        if (i==ky-1)
-                        {
-                            secondCondi.Add(new List<int>
-                            {
-                                j + i * kx,
-                                1,
-                                (int)Direction.Top
-                            });
-                        }
-                        else
+                        // if (i==ky-1)
+                        // {
+                        //     secondCondi.Add(new List<int>
+                        //     {
+                        //         j + i * kx,
+                        //         1,
+                        //         (int)Direction.Top
+                        //     });
+                        // }
+                        // else
+                        // {
+                        //     firstCondi.Add(j+i*kx);
+                        // }
+                        if (node[2]>=0)
                         {
                             firstCondi.Add(j+i*kx);
                         }
